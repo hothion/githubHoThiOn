@@ -1,0 +1,37 @@
+
+
+	.container {
+		display: grid;
+		grid-template-areas:
+			'Header Header Header'
+			'mainBar mainBar mainBar'
+			'menu content content'
+			'Footer Footer Footer';
+			grid-template-columns:200px auto;
+
+
+		 
+		}
+	.Header { grid-area:Header ;
+		background-color: red;
+		height: 50px;
+		}
+	.menu { grid-area: menu;
+		background-color: green;
+		height: 50px;
+	 }
+	.mainBar { grid-area: mainBar; 
+		background-color: blue;	
+		height: 50px;	
+	}
+
+	.content{ grid-area: content;
+		background-color: brown;
+		height: 50px;
+		}
+	.Footer { grid-area: Footer;
+		background-color: orange;
+		height: 50px;
+		
+		
+	}
